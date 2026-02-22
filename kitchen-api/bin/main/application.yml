@@ -4,13 +4,13 @@ spring:
       enabled: true 
   r2dbc:
     # 1. Simplified URL (No credentials inside the URL string)
-    url: "r2dbc:postgresql://aws-1-ap-south-1.pooler.supabase.com:6543/postgres"
+    url: ${DB_URL}
     
     # 2. Clear Username with the required Supabase project suffix
-    username: "postgres.vevhvghykigksxpnbsiv"
+    username: ${DB_USERNAME}
     
     # 3. Clear Password (YAML handles the # fine here)
-    password: "Shamly907232#*123"
+    password: ${DB_PASSWORD}
     
     properties:
       sslMode: "verify-ca"
