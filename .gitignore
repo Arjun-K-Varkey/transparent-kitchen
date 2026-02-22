@@ -1,0 +1,21 @@
+# IDE & System Files
+.idea/
+.vscode/
+.cursor/
+*.iml
+.DS_Store
+
+# Build & Dependencies
+build/
+.gradle/
+bin/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Secrets & Environment
+.env
+application-local.yml
+application-local.properties
+
+# Logs
+*.log
