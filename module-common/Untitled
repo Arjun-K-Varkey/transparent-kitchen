@@ -1,0 +1,7 @@
+dependencies {
+    // Required for the @Component annotation on SagaBus
+    implementation("org.springframework:spring-context:6.2.1") 
+    
+    // Required for Flux/Mono in the SagaBus
+    implementation("io.projectreactor:reactor-core:3.7.0")
+}
