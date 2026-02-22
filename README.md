@@ -1,9 +1,3 @@
-A professional `README.md` will help showcase your skills as a Technical Lead and explain the complex architecture you've built, including the Saga pattern and JSONB metadata integration.
-
-Here is a template tailored to your project:
-
----
-
 # Transparent Kitchen – Backend
 
 A reactive, multi-module Spring Boot application designed to provide transparency in food services through live kitchen feeds and automated nutritional integrity checks.
@@ -43,14 +37,7 @@ To handle dynamic request data and complex order items—like the **Varkey's Paz
 ### Prerequisites
 
 * JDK 25 (Toolchain).
-* PostgreSQL/Supabase instance with the `orders` table.
-
-### Database Schema
-
-```sql
-ALTER TABLE orders ADD COLUMN order_metadata JSONB;
-
-```
+* PostgreSQL/Supabase.
 
 ### Installation
 
